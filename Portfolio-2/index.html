@@ -204,13 +204,13 @@
 
     <Section class="contact" id="contact">
         <div class="center-text" data-aos="fade-down">
-            <h2>Contact <span>me</span></h2>
+            <h2>Contact<span>me</span></h2>
         </div>
         <div class="contact-form" data-aos="zoom-in">
-            <form action="">
-                <input type="text" placeholder="Your name" required>
-                <input type="email" placeholder="Email Address..." required>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here." required></textarea>
+            <form action="" method="POST" name="contact-forms">
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="Email Address..." required>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Write Message Here." required></textarea>
                 <input type="submit" value="Send Message" class="send-btn">
             </form>
         </div>
