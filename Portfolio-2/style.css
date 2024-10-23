@@ -610,6 +610,11 @@ form .send-btn:hover {
         background-position-y: 40px;
         background-color: rgba(10, 15, 20, 0.7); /* Adjust transparency */
     }
+
+    form .send-btn{
+        font-size: 13px; /* Slightly smaller font for mobile */
+        padding: 12px 11px;
+    }
 }
 
 @media(max-width: 505px) {
